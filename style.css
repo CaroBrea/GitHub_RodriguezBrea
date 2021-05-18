@@ -1,0 +1,574 @@
+body {
+  background: #8EF104;
+} 
+
+.navbar {
+  overflow: hidden;
+  background: #ac95e9 ;
+  display: flex;
+  justify-content: space-around;
+  font-family: Pantalla Playfair;
+  font-size: 10px;
+
+}
+
+.botonNav {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.botonNav2 {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ac95e9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto 0px auto; 
+  padding:5px;
+}
+.titulo {
+
+ font-family: Pantalla Playfair;
+ background-position: center;
+ color: white;
+ border: 1px white;
+ width: 8em;
+ letter-spacing: .25em;
+ text-align: center;
+ display: table;
+ margin: 0px auto 0px auto; 
+ padding:5px;
+ font-size:20px;
+}
+
+
+.subtitulo {
+  color:#FFF;
+  text-align: center;
+  align-content: center;
+  height: 3em ;
+  font-size: 15px;
+
+}
+
+
+.border {
+	display: flex;
+	justify-content: space-around;
+}
+
+.boton {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+
+.boton:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.InfoDeco {
+    background: #9458dc;
+}
+
+.informacion {
+  letter-spacing: .2em;
+  text-align: center;
+  padding:5px;
+  margin: 3.5em;
+}
+
+.espacio {
+  background:#8EF104; 
+}
+.tabla {
+	padding:5px;
+	margin: 3.5em;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cajas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  width: 16em;
+  height: 16em;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  background: white;
+}
+
+}
+.cajas span {
+  display: block;
+  text-align: center;
+  margin: 1em auto;
+  font-size: 1.15em;
+}
+
+.cajas:hover span {
+  text-decoration: underline;
+}
+
+.cajas:hover {
+  border: .15em solid white;
+ }
+
+.cajas#primerCiclo {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://images.ctfassets.net/p0qf7j048i0q/751D952802094B0A92717F7D21B63656/f12c395936489a6278393e8486ed79e3/G962194280.jpg?w=1000&h=750&fit=fill&fm=webp'); 
+ 
+}
+
+
+.cajas#SegundoCiclo {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://www.greatschools.org/gk/wp-content/uploads/2018/08/Spanish-7th-grade-common-core-math-360x180.jpg');
+ 
+}
+
+.cajas#JardinDeInfantes {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://cronicaglobal.elespanol.com/uploads/s1/53/54/55/9/escuela-autismo-ninos.png') ;
+ 
+}
+
+.juego {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: #9458dc;
+    width: 30em;
+    height: 25em;
+    border-radius: 1em;
+    border-color: #9458dc;
+    border: black;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+
+.banner {
+  display: flex;
+  margin: 1em auto 2em;
+  align-items: center;
+  background: #fff;
+  width: 50em;
+  height: 7em;
+  text-decoration: none;
+  color: #4b4b4b;
+  border-radius: .5em;
+  border: black;
+  overflow: hidden;
+}
+.banner#a {
+ background: #9458dc;
+ text-align: center;
+ color: white;
+ width: 10em;
+ height: 9em;
+ border: 1px solid #3483fa;
+ font-size: 1em;
+ padding: .5em 1em;
+ border-radius: .25em;
+ transition: all .25s;
+}
+
+.banner#a:hover {
+  background:#88c2fa;
+}
+
+.banner#b {
+  background: #8c44d4 ;
+ text-align: center;
+ color: white;
+ width: 10em;
+ height: 9em;
+ border: 1px solid #3483fa;
+ font-size: 1em;
+ padding: .5em 1em;
+ border-radius: .25em;
+ transition: all .25s;
+}
+.banner#b:hover {
+  background:#88c2fa;
+}
+
+.banner#c {
+ background: #ad82e4 ;
+ text-aling: center;
+ color: white;
+ width: 10em;
+ height: 9em;
+ border: 1px solid #3483fa;
+ font-size: 1em;
+ padding: .5em 1em;
+ border-radius: .25em;
+ transition: all .25s;
+}
+.banner#c:hover {
+  background:#88c2fa;
+}
+.banner div {
+  padding: 1em 3em;
+}
+.banner div h5, .banner div h6 {
+  text-transform: none;
+  font-weight: 300;  
+}
+
+.banner div h5 {
+  letter-spacing: .15em;
+  font-size: 1em;
+  margin: 0;
+}
+
+.banner div h6 {
+  font-size: 1em;
+  margin: .25em 0;
+  line-height: 1;
+}
+
+.banner div h6 strong {
+  display: block
+}
+
+.banner#J {
+ background: #3483fa;
+ float:right;
+ color: white;
+ border: 1px solid #3483fa;
+ font-size: 1em;
+ padding: .5em 1em;
+ border-radius: .25em;
+ transition: all .25s;
+ width: 9em;
+ height: 2em;
+}
+
+.banner:hover {
+  box-shadow: 0 0 .5em .5em rgba(0,0,0,.05);
+}
+
+.banner#J:hover {
+  background:#1359c3;
+}
+
+
+.footer {
+  display: flex;	
+  justify-content: space-around;
+  margin: 5em auto;
+}
+
+
+.border {
+	border: 4px solid white;
+}
+
+.footerText {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+
+.footerText:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.footerColum {
+  background: #6f32d4;
+}
+
+.tabla1 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px 300px; 
+   				   
+   grid-template-rows: 70px 70px 70px 70px; 
+
+   grid-column-gap:50px; }
+ 
+.tabla2 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px 300px 300px; 
+   				   
+   grid-template-rows: 70px 70px 70px 70px 70px; 
+
+   grid-column-gap:50px; }
+
+
+.tabla3 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px; 
+   				   
+   grid-template-rows: 70px 70px 70px; 
+
+   grid-column-gap:50px; 
+}
+  
+
+.tituloTabla {
+	font-weight: bold;
+	font-family: montserrat;
+}
+
+.descripcionTabla {
+	font-style: italic;	
+	}
+
+
+.card {
+    margin-bottom: 20px;
+    border: none
+}
+
+.container {
+    margin: 0 auto;
+}
+.box {
+    width: 500px;
+    padding: 40px;
+    border-radius: .25em;
+    top: 50%;
+    left: 50%;
+    background: #6c1acc;
+    text-align: center;
+    transition: 0.25s;
+    margin: 0 auto;
+}
+
+    .box input[type="text"],
+    .box input[type="password"] {
+        border: 0;
+        background: #2ecc71;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #aad3fc;
+        padding: 10px 10px;
+        width: 250px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s
+    }
+
+    .box h1 {
+        color: #88c2fa;
+        text-transform: uppercase;
+        font-weight: 500
+    }
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71
+}
+
+.forgot {
+    text-decoration: underline;
+    color: white;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+
+. @media only screen and (min-width: 768px) {
+    .tabla1 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px 300px; 
+   				   
+   grid-column-gap:50px; }
+
+   .tabla2 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px 300px 300px; 
+
+   grid-column-gap:50px; }
+    
+   .tabla3 {
+   display: grid;  
+				   
+   grid-template-columns: 100px 300px 300px; 
+   				   
+   grid-column-gap:50px; 
+}
+
+}
+
+
+. @media only screen and (min-width: 768px) {
+	.tabla1 {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 4px solid black;
+    	
+     }
+	.tabla2 {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 4px solid black;
+    }
+    	
+	.tabla3 {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 4px solid black;
+    	
+     }
+
+
